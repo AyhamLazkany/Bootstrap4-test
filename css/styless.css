@@ -1,3 +1,7 @@
+body{
+    padding-top: 56px;
+    z-index: 0;
+}
 .row-header{
     margin: 0px auto;
     padding: 0px auto;
@@ -17,7 +21,7 @@
 .jumbotron{
     margin: 0px auto;
     padding: 70px 30px;
-    background-color: rgb(210, 64, 255);
+    background-color: rgb(219, 103, 255);
     color: floralwhite;
 }
 .address{
@@ -28,4 +32,7 @@
     margin: 0px auto;
     padding-top: 20px;
     font-weight: bold;
+}
+.navbar-dark{
+    background-color: rgb(195, 0, 255);
 }
