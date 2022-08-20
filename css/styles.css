@@ -36,3 +36,6 @@ body{
 .navbar-dark{
     background-color: rgb(195, 0, 255);
 }
+.bg-primary{
+    background-color: rgb(195, 0, 255)!important;
+}
