@@ -39,3 +39,6 @@ body{
 .bg-primary{
     background-color: rgb(195, 0, 255)!important;
 }
+.mr-0 {
+    margin: 0px;
+}
