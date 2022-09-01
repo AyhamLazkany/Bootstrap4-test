@@ -39,6 +39,15 @@ body{
 .bg-primary{
     background-color: rgb(195, 0, 255)!important;
 }
-.mr-0 {
-    margin: 0px;
+.carousel{
+    background-color:  rgb(195, 0, 255);
+}
+.carousel-item{
+    height: 300px;
+}
+.carousel-item img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
 }
