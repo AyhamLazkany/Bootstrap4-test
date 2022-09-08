@@ -33,6 +33,11 @@
                                 class="fa fa-address-card fa-lg"></span> Contact</a></li>
                 </ul>
             </div>
+            <span class="navbar-text">
+                <a id="login-btn" role="button">
+                    Login <span class="fa fa-sign-in"></span>
+                </a>
+            </span>
         </div>
     </nav>
 
@@ -324,6 +329,14 @@
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(() => {
+            $('#login-btn').attr('data-toggle','modal');
+            $('#login-btn').click(() => {
+                $('#login').modal('show');
+            })
+        });
+    </script>
 
 </body>
 

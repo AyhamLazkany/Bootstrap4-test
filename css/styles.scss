@@ -67,3 +67,16 @@ $carousel-itme-height: 300px;
    border-bottom: 1px solid $lt-gray;
    padding: 10px;
 }
+.modal-content{
+    border: 0px;
+    .modal-header{
+        background-color: $background-dark;
+        color: floralwhite;
+        button {
+            color: floralwhite;
+        }
+    }
+    .modal-body {
+        background-color: $background-pale;
+    }
+}
